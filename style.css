@@ -1,0 +1,47 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    /* 背景画像の設定 */
+    background-image: url(https://media.discordapp.net/attachments/1148296326619078799/1274756922742018078/image.jpg?ex=66c36966&is=66c217e6&hm=d288ca60eace59031b4573e810e373e36ce1d36bfa8c6ac7b77d3304e9342723&=&format=webp&width=1484&height=978);
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+    width: 480px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        
+}
+
+
+    .main-sentence{
+        text-decoration: underline;
+        font-weight: 1000;
+        color: black;
+        display: flex;
+            align-items: center;
+            flex-direction: column;
+    }
+
+        #title{
+            font-size: 200%;
+        }
+    
+    .hobbies{
+        width: 480px;
+        border-top: dotted;
+        display: flex;
+            justify-content: space-around;
+
+
+
+    }
