@@ -1,12 +1,13 @@
 body{
     width: 100vw;
     height: 100vh;
-    overflow: scroll;
+    overflow-x: hidden;
     display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
     /* 背景画像の設定 */
     background-image: url(https://media.discordapp.net/attachments/1148296326619078799/1274756922742018078/image.jpg?ex=66c36966&is=66c217e6&hm=d288ca60eace59031b4573e810e373e36ce1d36bfa8c6ac7b77d3304e9342723&=&format=webp&width=1484&height=978);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
@@ -14,6 +15,7 @@ body{
 .main{
     width: 480px;
     height: 300px;
+    margin-top: 180px;
     background-color: white;
     display: flex;
         justify-content: space-around;
@@ -24,6 +26,7 @@ body{
 
 
     .main-sentence{
+        margin-top: 48px;;
         text-decoration: underline;
         font-weight: 1000;
         color: black;
@@ -38,10 +41,88 @@ body{
     
     .hobbies{
         width: 480px;
+        margin-top: 48px;
+        margin-bottom: 48px;;
         border-top: dotted;
         display: flex;
             justify-content: space-around;
 
+    }
 
+.description{
+    margin-top: 500px;
+    display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+}
+
+.game-description{
+    width:100vw;
+    margin-bottom: 500px;
+
+}
+
+    #game-description-title{
+        justify-content: start;
+        border-bottom: solid;
+        background-color: white;
 
     }
+
+    #game-description-sentence{
+        margin-right: 50px;
+        margin-left: 50px;
+        background-color: white;
+
+    }
+
+.travel-description{
+    width:100vw;
+    margin-bottom: 500px;
+
+}
+
+    #travel-description-title{
+        justify-content: start;
+        border-bottom: solid;
+        background-color: white;
+
+    }   
+
+    #travel-description-sentence{
+        margin-right: 50px;
+        margin-left: 50px;
+        background-color: white;
+    
+    }
+
+
+.blacktea-description{
+    width:100vw;
+    margin-bottom: 500px;
+
+}
+
+    #blacktea-description-title{
+        justify-content: start;
+        border-bottom: solid;
+        background-color: white;
+
+    }   
+
+    #blacktea-description-sentence{
+        margin-right: 50px;
+        margin-left: 50px;
+        background-color: white;
+
+    }
+
+.link{
+    margin:10px;
+    background-color: white;
+    display:flex;
+        justify-content: end;
+    color:dodgerblue;
+
+}
