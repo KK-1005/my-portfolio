@@ -6,7 +6,7 @@ body{
         flex-direction: column;
         align-items: center;
     /* 背景画像の設定 */
-    background-image: url(https://media.discordapp.net/attachments/1148296326619078799/1274756922742018078/image.jpg?ex=66c36966&is=66c217e6&hm=d288ca60eace59031b4573e810e373e36ce1d36bfa8c6ac7b77d3304e9342723&=&format=webp&width=1484&height=978);
+    background-image: url(https://cdn.discordapp.com/attachments/1148296326619078799/1274756922742018078/image.jpg?ex=66cbfb26&is=66caa9a6&hm=5b261c03567f6318b0f19cf607b9454f6398480c6e90fb7e9ac716c6babffb62&);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
